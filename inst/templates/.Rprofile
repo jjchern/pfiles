@@ -16,3 +16,7 @@ cat('retrieve the top-level Project directory at any time with PROJHOME or via g
     get("PROJHOME", "RPROJ"), "\n")
 
 rm(RPROJ)
+
+# From http://ghrr.github.io/drat/
+
+drat:::add("ghrr")
