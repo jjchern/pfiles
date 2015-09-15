@@ -1,4 +1,4 @@
-use_Rprofile = function() {
+use_macro_sty = function() {
 
   macro_sty_path = file.path(normalizePath(getwd()), "macro.sty")
   template = render_template("macro.sty")
